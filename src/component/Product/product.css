@@ -1,0 +1,91 @@
+.product_sec {
+    padding: 100px 10px;
+    background-color: rgb(255, 254, 253);
+}
+
+.heading {
+    font-family: 'Franklin Gothic Medium';
+    letter-spacing: 2px;
+}
+
+.product_btn .btn,
+.product_button {
+    background-color: #FE507F !important;
+    outline: 1px solid #FE507F !important;
+    border: 1px solid #FE507F !important;
+    margin: 30px 10px;
+    transition: .9s;
+
+}
+
+.product_btn .btn:hover {
+    color: #000;
+    background-color: transparent !important;
+    transition: .9s;
+}
+
+.product_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product_border {
+    box-shadow: 0 0 10px #fecedb;
+    border-radius: 5px;
+    width: 290px;
+    height: 100%;
+    margin: 18px 0;
+}
+
+.product_img {
+    width: 100%;
+    text-align: center !important;
+    padding: 10px;
+}
+
+.product_img img {
+    height: 300px !important;
+}
+
+.product_body {
+    padding: 10px;
+
+}
+
+.product_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #db2858;
+    margin: 10px 0;
+}
+
+.product_price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d0d1a;
+    margin: 10px 0;
+
+}
+
+.product_button {
+    margin: 10px 0 !important;
+}
+
+
+@media (max-width: 769px) {
+
+    .product_flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product_border {
+        box-shadow: 0 0 10px #fecedb;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        margin: 18px 0;
+    }
+}

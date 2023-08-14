@@ -1,0 +1,32 @@
+.top_header {
+  background-color: #F5F6F8;
+  padding: 10px 50px;
+}
+
+.top_space {
+  justify-content: space-between;
+}
+
+.top_menu {
+  list-style: none;
+  font-size: 17px;
+}
+
+.top_menu li {
+  margin: 0 10px;
+}
+
+.top_menu li a {
+  display: block;
+  color: black;
+}
+
+.top_icon {
+  font-size: 18px;
+  margin-right: 8px;
+  text-align: right !important;
+}
+
+.social_icon {
+  margin: auto;
+}

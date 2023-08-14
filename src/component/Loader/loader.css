@@ -1,0 +1,19 @@
+.spineer_area {
+    margin-top: 250px !important;
+    text-align: center !important;
+    margin: auto;
+}
+
+.spineer_area img {
+    max-width: 20%;
+}
+
+@media (max-width: 572px) {
+    .spineer_area {
+        margin-top: 200px;
+    }
+
+    .spineer_area img {
+        max-width: 50% !important;
+    }
+}

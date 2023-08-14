@@ -1,0 +1,44 @@
+.table_hidden {
+  overflow: auto;
+}
+
+.table th {
+  vertical-align: middle !important;
+  border-bottom: 2px solid #dee2e6;
+  font-size: 18px;
+  color: #98084b;
+}
+
+.table tbody td {
+  vertical-align: middle !important;
+  color: #a1245f;
+    font-size: 17px !important;
+}
+
+.head_padding {
+  height: 100px;
+  vertical-align: middle !important;
+}
+
+.cart_btn {
+  border: none !important;
+  padding: 0 !important;
+  line-height: 7px !important;
+  height: 40px;
+  width: 40px;
+  font-size: 30px !important;
+  color:  #db3c86 !important;
+}
+
+.Riicon {
+  font-size: 30px;
+  color: rgb(180, 36, 36);
+}
+
+.total_th th {
+  text-align: right !important;
+}
+.total_th td
+{
+  padding-right: 90px !important;
+}
